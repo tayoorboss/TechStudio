@@ -1,0 +1,75 @@
+.top{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.group{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar{
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    /* height: 6rem; */
+    align-items: stretch;
+    padding: 0!important;
+    padding: 0.5rem 1rem;
+}
+.over{
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.logo{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.para{
+    margin-bottom: 0!important;
+    margin-top: 0!important;
+    text-transform: capitalize!important;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.ulist{
+    flex-direction: row!important;
+    text-decoration: none;
+    text-decoration-line: none;
+    display: flex;
+    list-style: none;
+    font-family: walsheim,sans-serif!important;
+    color: blue;
+    padding-right: 5rem!important;
+}
+a{
+    text-decoration-line: none;
+    color: blue;
+}
+.java{
+    border: groove; 
+    height: 600px;
+}
